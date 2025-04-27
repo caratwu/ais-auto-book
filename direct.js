@@ -16,7 +16,7 @@ const route = async () => {
         await delay(3);
         var path = $("a.button[href$='continue_actions']").attr('href');
         location.href = path.replace('continue_actions', 'appointment');
-    } else if (u.endsWith('/appointment')) {
+    } else if (u.endsWith('/appointment') || u.includes('/appointment?')) {
         showToast('Load Appointment Page...');
         $('#appointments_consulate_appointment_facility_id').val(locationId);
         $('#consulate_date_time').show();
