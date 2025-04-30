@@ -1,8 +1,8 @@
-var email = 'your username'; // User email for login
-var pwd = 'your password'; // User password for login
-var start = '2025-04-01'; // Desired appointment start date (YYYY-MM-DD)
-var end = '2025-04-02'; // Desired appointment end date (YYYY-MM-DD)
-var exclude = ['2025-04-01', '2025-04-02']; // Dates to exclude from booking even if available
+var email = 'xueyin41235@163.com'; // User email for login
+var pwd = 'niuniu318180'; // User password for login
+var start = '2025-06-01'; // Desired appointment start date (YYYY-MM-DD)
+var end = '2025-07-15'; // Desired appointment end date (YYYY-MM-DD)
+var exclude = ['2025-06-01', '2025-07-15']; // Dates to exclude from booking even if available
 var locationId = 17; //17:London 16:Belfast
 var country = 'gb'; // Country code (e.g., gb = UK, ca = Canada, ae = UAE)
 var intervalSecond = 2 * 60; // Interval in seconds to check for new slots (e.g., 120s)
